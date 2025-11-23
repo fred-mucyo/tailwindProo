@@ -5,13 +5,20 @@ import Navbar from './Navbar.jsx'
 import Homepage from './Homepage.jsx'
 import Herosection from './Herosection.jsx'
 import Body from './Body.jsx'
+import Footer from './footer.jsx'
+import Events from './Events.jsx'
+import Transformation from './Transformation.jsx'
+import Imisanzu from './imisanzu.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Navbar />
     <Herosection/>
     <Homepage/>
-    <Body/>
-  
+   <Body/>
+   <Imisanzu/>
+  <Transformation/>
+  <Events/>
+  <Footer/>
   </StrictMode>,
 )
