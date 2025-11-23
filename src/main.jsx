@@ -8,7 +8,7 @@ import Body from './Body.jsx'
 import Footer from './Footer.jsx'
 import Events from './Events.jsx'
 import Transformation from './Transformation.jsx'
-import Imisanzu from './imisanzu.jsx'
+import Imisanzu from './Imisanzu.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
